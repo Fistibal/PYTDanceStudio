@@ -1,0 +1,129 @@
+html {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*navigatiom*/
+.navbar-default {
+  background-color: #000000;
+  height: 3.875rem;
+}
+
+nav img  {
+  padding-left: 3.6875rem;
+  height: 50px;
+}
+
+nav ul {
+  font-family: Open Sans, serif;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  padding-right: 3.4375rem;
+}
+
+/*jumbotron*/
+.jumbotron {
+  text-align: center;
+  background-image: url("./resources/pyt_dance_studio_resources/dancers-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 9.4375rem 0 3.125rem;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.jumbotron h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 2.6875rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-bottom: 5rem;
+  width: 45rem;
+  margin: auto;
+}
+
+.btn-primary {
+  border-radius: 2px;
+  background-color: #f5a623;
+  font-family: Open-Sans, serif;
+  font-size: 1.375;
+  font-weight: bold;
+}
+
+/*graffiti-photo*/
+.graffiti-photo {
+  background-image: url("/resources/pyt_dance_studio_resources/graffiti-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+}
+
+.content {
+  background-color: rgba(120, 73, 225, 0.9);
+  width: 25rem;
+  height: 20rem;
+  justify-content: flex-end;
+
+}
+
+.content h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.content p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+.content h4 {
+  font-weight: bold;
+}
+
+/*fire-photo*/
+.fire-photo {
+  background-image: url("pyt_dance_studio_resources/fire-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+}
+
+/*jump-photo*/
+.jump-photo {
+  background-image: url("./resources/pyt_dance_studio_resources/jump-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+}
+
+/*footer*/
+footer {
+  background-image: url("pyt_dance_studio_resources/party-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-nav {
+  height: 3.125rem;
+}
+
+.studio-info li {
+  display: inline-block;
+}
+
+.baseline {
+  text-align: center;
+  height: 15rem;
+}
