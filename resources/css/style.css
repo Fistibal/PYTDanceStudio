@@ -13,6 +13,7 @@ html {
 .navbar-default .navbar-nav .active a:hover {
     background-color: black;
     color: #f5a623;
+}
 
 nav img  {
   padding-left: 3.6875rem;
@@ -20,7 +21,7 @@ nav img  {
 }
 
 nav ul {
-  font-family: Open Sans, serif;
+  font-family: "Open Sans", serif;
   font-size: 1rem;
   color: #ffffff;
   font-weight: bold;
@@ -37,6 +38,7 @@ nav ul {
   padding: 9.4375rem 0 3.125rem;
   font-family: Roboto;
   color: #ffffff;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -91,9 +93,7 @@ nav ul {
 }
 .content {
   width: 25rem;
-  height: 20rem;
   padding: 5rem 0 3rem 3rem;
-
 }
 
 .content h1 {
@@ -154,9 +154,10 @@ footer {
   background-color: rgba(120,73,227,0.4);
   justify-content: space-around;
 }
-.icon {
-
+footer .icon {
+width: 9rem;
 }
+
 .baseline {
   text-align: center;
   height: 15rem;
@@ -166,6 +167,44 @@ footer {
   line-height: 1.5;
 }
 
-.container-image {
+/*about*/
+.about {
+  background-color: #f2f2f2;
+  border-bottom: 10px solid #794ae2;
+  display: flex;
+}
+
+.about .container-image {
   width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.about .content {
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+.about p {
+  color: #666666;
+}
+
+/*main*/
+.main h1 {
+  color: #794ae2;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.main p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #666666;
 }
