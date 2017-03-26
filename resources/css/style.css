@@ -29,7 +29,7 @@ nav ul {
 }
 
 /*jumbotron*/
-.jumbotron {
+.dancers {
   text-align: center;
   background-image: url("../pyt_dance_studio_resources/dancers-photo.png");
   background-position: center;
@@ -41,14 +41,14 @@ nav ul {
   margin-bottom: 0;
 }
 
-.jumbotron h1 {
+.dancers h1 {
   font-size: 3.125rem;
   font-weight: bold;
   line-height: 1;
   padding-bottom: 2.6875rem;
 }
 
-.jumbotron p {
+.dancers p {
   font-size: 1.5rem;
   line-height: 1.5;
   padding-bottom: 5rem;
@@ -223,12 +223,67 @@ align-items:flex-end;
 }
 
 /*classes schedule*/
-.classe-schedule {
+.jumbotron h1 {
+  color: rgba(174, 75, 227, 0.9);
+  padding-top: 9rem;
+}
+
+.content-jum {
+  text-align: center;;
+}
+
+.class-schedule {
   padding: 5.3125rem 1.125rem 2.4rem 1.125rem;
 }
 
-.classe-schedule h2 {
+.class-schedule h2 {
   font-size: 1.875rem;
   font-weight: bold;
-  color: (174, 75, 227, 0.9);
+  color: rgba(174, 75, 227, 0.9);
+}
+
+.class-schedule h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.class-schedule h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.class-schedule p {
+  font-size: .875rem;
+  line-height: 1.7;
+  padding-bottom: 3.75rem;
+}
+
+.faculties {
+  text-align: center;
+  padding: 5.625rem 7.5rem 11.25rem 7.5rem;
+}
+
+.faculties img {
+  width: 16.875rem;
+  padding-bottom: 1.25rem;
+}
+
+.faculties h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  padding-bottom: .625rem;
+}
+
+.faculties h3 {
+  padding-bottom: .625rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.faculties p {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  padding-bottom: 6.25rem;
 }
