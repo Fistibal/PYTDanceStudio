@@ -15,6 +15,12 @@ html {
     color: #f5a623;
 }
 
+.nav .container-fluid {
+  padding-left: 3.6875rem;
+  padding-right: 3.4375rem;
+  height: 3.875rem;
+}
+
 nav img  {
   padding-left: 3.6875rem;
   height: 50px;
@@ -53,6 +59,10 @@ nav ul {
   margin-bottom: 0;
 }
 
+.dancers .container {
+  max-width: 45rem;
+}
+
 .dancers h1 {
   font-size: 3.125rem;
   font-weight: bold;
@@ -65,7 +75,6 @@ nav ul {
   line-height: 1.5;
   padding-bottom: 5rem;
   width: 45rem;
-  margin: auto;
 }
 
 .btn-primary {
@@ -78,9 +87,11 @@ nav ul {
 /*main*/
 .photo-container {
   height: 31.25rem;
-  display: flex;
+  background-size: cover;
+  position: relative;
+  /*display: flex;
   justify-content: flex-end;
-  align-items:flex-end;
+  align-items:flex-end;*/
 }
 
 /*graffiti-photo*/
@@ -104,27 +115,76 @@ nav ul {
 }
 .content {
   width: 25rem;
-  height: 20rem;
+  max-height: 20rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   color: white;
-  color: white;
-  padding: 5rem 0 auto 3rem;
+  padding: 5rem 3rem;
 }
 
 .content h1 {
   font-size: 2.25rem;
   font-weight: bold;
   line-height: 1.2;
-  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .content p {
   font-size: 1.125rem;
   line-height: 1.4;
-  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.content h4 {
+.content a {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+	.content {
+		max-height: 12.1875rem;
+		width: initial;
+		bottom: 0;
+		padding: 1.875rem 3.4375rem 3.4375rem 1.875rem;
+	}
+
+	.content h2 {
+		font-size: 1.875rem;
+		line-height: 1.4;
+		margin-bottom: 0.625rem;
+	}
+
+	.content p {
+		font-size: 1rem;
+		line-height: 1.5;
+		margin-bottom: 1.25rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.content {
+		padding: 1.875rem 1.25rem;
+	}
+
+	.content h2 {
+		font-size: 1.25rem;
+		line-height: 1.2;
+	}
+
+	.content p {
+		font-size: 1rem;
+		line-height: 1.5;
+		margin-bottom: 1.25rem;
+	}
+
+	.content a {
+		font-size: 1rem;
+	}
+}
+
+/*jumbotron*/
+.jumbotron {
+  max-width: 100%;
 }
 
 /*fire-photo*/
@@ -147,6 +207,9 @@ nav ul {
   background-color: rgba(120, 73, 225, 0.9);
 }
 
+.map-photo {
+  position: relative;
+}
 /*footer*/
 footer {
   background-image: url("../pyt_dance_studio_resources/party-photo.png");
@@ -198,7 +261,7 @@ width: 9rem;
 }
 
 /*about*/
-.about {
+.jumbotron {
   background-color: #f2f2f2;
   border-bottom: 10px solid #794ae2;
   display: flex;
