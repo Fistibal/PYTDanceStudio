@@ -28,6 +28,18 @@ nav ul {
   padding-right: 3.4375rem;
 }
 
+/*@media only screen and (max-width: 760px) {
+  nav .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  nav .mobile {
+    display: none;
+  }
+}*/
+
 /*jumbotron*/
 .dancers {
   text-align: center;
@@ -64,6 +76,12 @@ nav ul {
   font-weight: bold;
 }
 /*main*/
+.photo-container {
+  height: 31.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+}
 
 /*graffiti-photo*/
 .graffiti-photo {
@@ -71,10 +89,6 @@ nav ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 31.25rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items:flex-end;
 }
 
 .graffiti-photo .content {
@@ -86,15 +100,14 @@ nav ul {
 }
 
 .jump-photo .content {
-  background-color: rgba(226, 75, 227, 0.9);
+  background-color: rgba(226, 74, 226, 0.9);
 }
-.main .content {
+.content {
   width: 25rem;
-  padding: 5rem 0 3rem 3rem;
   height: 20rem;
   color: white;
-  overflow: auto;
   color: white;
+  padding: 5rem 0 auto 3rem;
 }
 
 .content h1 {
@@ -120,10 +133,6 @@ nav ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 31.25rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items:flex-end;
 }
 
 /*jump-photo*/
@@ -132,10 +141,10 @@ nav ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 31.25rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items:flex-end;
+}
+
+.map-photo .content {
+  background-color: rgba(120, 73, 225, 0.9);
 }
 
 /*footer*/
@@ -169,7 +178,7 @@ width: 9rem;
 }
 
 @media only screen and (max-width: 760px) {
-  footer .desktop {
+  .desktop {
     display: none;
   }
   .footer-nav {
@@ -179,6 +188,12 @@ width: 9rem;
     color: white;
     background-color: rgba(120,73,227,0.4);
     justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .mobile {
+    display: none;
   }
 }
 
@@ -237,7 +252,7 @@ align-items:flex-end;
 }
 
 /*classes schedule*/
-.jumbotron h1 {
+.image-content h1 {
   color: rgba(174, 75, 227, 0.9);
   padding-top: 9rem;
 }
