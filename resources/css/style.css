@@ -34,6 +34,10 @@ nav ul {
   padding-right: 3.4375rem;
 }
 
+a {
+  color: white;
+}
+
 /*@media only screen and (max-width: 760px) {
   nav .desktop {
     display: none;
@@ -262,31 +266,27 @@ width: 9rem;
 
 /*about*/
 .jumbotron {
-  background-color: #f2f2f2;
   border-bottom: 10px solid #794ae2;
   display: flex;
+  align-items: center;
 }
 
-.about .container-image {
-  width: 50%;
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-}
-.about .content {
-  width: 50%;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
+.jumbotron img {
+  max-width: 100%;
+  padding-bottom: 0;
 }
 
-.about h1 {
+.jumbotron .content-jum h1 {
   font-size: 3.125rem;
   font-weight: bold;
   color: #794ae2;
 }
 .about p {
   color: #666666;
+}
+
+.many-style:nth-child(odd) {
+    background-color: #ffffff;
 }
 
 /*main*/
